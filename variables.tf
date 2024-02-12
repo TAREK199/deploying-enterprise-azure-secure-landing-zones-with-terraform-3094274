@@ -5,7 +5,7 @@ variable "root_id" {
 }
 variable "root_name"{
     type = string 
-    default = "Terraform"
+    default = "Enterprise-scale"
 }
 
 #connectivity settings 
