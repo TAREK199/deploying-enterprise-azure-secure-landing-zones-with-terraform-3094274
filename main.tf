@@ -3,7 +3,7 @@
 data "azurerm_client_config" "core" {}
 
 
-module "enterprise-scale" {
+module "enterprise_scale" {
         source = "Azure/caf-enterprise-scale/azurerm"
 
         version = "~> 1.0.0"
